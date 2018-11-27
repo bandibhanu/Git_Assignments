@@ -1,0 +1,28 @@
+        COMMANDS
+ 
+	1. crated a file in folder (firstfile.txt)
+	2. git init 
+	3. git status
+	4. git add firstfile.txt
+	5. git commit -m ¨adds¨
+->to update the file 
+	6. git init 
+	7. git commit -am ¨adds firstfile¨
+->to rename the file
+	8. git mv firstfile.txt first_file.txt
+	9. git commit -m ¨adds first_file.txt¨
+->create a branch 
+	10. git branch 
+	11. git branch branch1
+->checkout to branch1
+	12. git checkout branch1
+	13. add data into it 
+	14. git init
+	15. git commit -am ¨adds brach¨
+	16. git log
+	17. git diff branch1 master
+->in order to merg checkout to master
+	18. git brach
+	19. git checkout master
+	20. git merge branch1
+	21. git log      (In order to know the merge was successful the branch checksum and the master checksum should be same)  
